@@ -11,3 +11,11 @@
 ## run as
 # npm run build:ssr
 # npm run serve:ssr
+
+## add app shell as
+# ng generate app-shell
+
+## run app shell as 
+# ng run ng11-ssr-pwa:app-shell:production
+
+## after app shell, run as serve:ssr directly from earlier build

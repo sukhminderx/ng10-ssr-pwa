@@ -173,6 +173,20 @@
           "configurations": {
             "production": {}
           }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "ng11-ssr-pwa:build",
+            "serverTarget": "ng11-ssr-pwa:server",
+            "route": "shell"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ng11-ssr-pwa:build:production",
+              "serverTarget": "ng11-ssr-pwa:server:production"
+            }
+          }
         }
       }
     }},
